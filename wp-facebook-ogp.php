@@ -86,7 +86,7 @@ function wpfbogp_callback( $content ) {
 
 function wpfbogp_flush_ob() {
 	if ( ! is_feed() ) {
-		ob_end_flush();
+		//ob_end_flush();
 	}
 }
 
